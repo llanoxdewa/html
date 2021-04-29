@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>id pada html</title>
+	<!-- mengubah id menjadi tulisan lain -->
+	 <script>
+	 	
+		function displayResult() {
+  			document.getElementById("c1").innerHTML = "tulisan telah diubah !";
+  			document.getElementById("c2").innerHTML = "tulisan telah diubah !";
+  			document.getElementById("c3").innerHTML = "tulisan telah diubah !";
+		}
+	</script> 
+	<style>
+		.judul {
+			background-color:blue;
+			color:red;
+			font-size:200%;
+			text-align:center;
+			
+		}
+		body {
+			background-color:yellow;
+		}
+
+		.bookmark {
+			font-family:monospace;
+			font-size:150%;
+			color:tomato;
+		}
+		span {
+			color:black;
+			font-weight:bold;
+		}
+		#c1,#c2,#c3 {
+			font-weight:bold;
+		}
+	</style>
+</head>
+<body>
+	<div class="judul">
+		<h1>selamat datang di web jadul</h1>
+	</div>
+	<div class="bookmark">
+		<ul>
+			<h1>bookmark </h1>
+			<li><a href="#c1"><span>chapter 1</span></a></li>
+			<li><a href="#c2"><span>chapter 2</span></a></li>
+			<li><a href="#c3"><span>chapter 3</span></a></li>
+		</ul>
+		
+	</div>
+	
+	<!-- chapter 1 -->
+	<button onclick="displayResult()">mengubah tulisan</button>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p id="c1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p id="c2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<p id="c3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BELAJAR FORM</title>
+</head>
+<body>
+	<!-- form adalah sebuah elemen pada html untuk mengelola data input oleh 
+	user-->
+	<form>
+		<!-- elemen elemen yang ada pada form
+		1.input = user bisa menginputkan sesuatu
+			<input type="">
+			>text
+			>password
+			>radio
+			>checkbox
+			>submit *
+			>reset *
+			>button *
+		2.select = membuat dropdown dan combobox
+		3.textarea = email dan lain lain
+		4.button = melakukan hal spesific
+		5.label -->
+
+		<!-- membuat input -->
+		<label for="username">USERNAME : </label>
+		<input type="text" id="username">
+		<br><br>
+		<label for="password">PASSWORD : </label>	
+		<input type="password" id="password">
+		<br><br>
+
+		<!-- membuat radiobutton -->
+		<input type="radio" id="male" name="jenis kelamin"><label for="male">laki laki</label>
+		<input type="radio" id="famale" name="jenis kelamin"><label for="famale">perempuan</label>
+		<br><br><br>
+		<!-- membuat checkbox -->
+		<input type="checkbox" id="belajar" name="hobi">
+		<label for="belajar">belajar</label>
+		<input type="checkbox" id="main game" name="hobi">
+		<label for="main game">main game</label>
+		<input type="checkbox" id="ngoding" name="hobi">
+		<label for="ngoding">ngoding</label>
+		<br><br>
+		<button type="submit">kirim</button>
+		<br><br>
+
+		<!-- membuat textarea -->
+		<textarea></textarea>
+		<br><br>
+
+		<!-- membuat dropdown/select -->
+		<select>
+			<option>opsi 1</option>
+			<option>opsi 2</option>
+			<option>opsi 3</option>
+		</select>
+
+	</form>
+</body>
+</html>

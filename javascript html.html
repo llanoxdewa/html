@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript with html</title>
+	<style>
+		.judul {
+			font-size:150%;
+			font-family:monospace;
+			text-align:center;
+			background-color:black;
+			color:white;
+		}
+
+		.judul hr {
+			color:red;
+		}
+		body {
+			background-color:tomato;
+		}
+
+		.paragraf {
+			color:white;
+			font-size:110%;
+		}
+
+		.paragraf table,th,td {
+			border-collapse:collapse;
+			border:4px solid black;
+			padding:4px;
+		}
+		.paragraf th {
+			text-align:center;
+			background-color:green;
+		}
+	</style>
+	<script>
+		function disapear(){
+			document.getElementById("none").innerHTML = "blank"
+		}
+	</script>
+</head>
+<body>
+	<div class="judul">
+		<hr>
+		<h1>selamat datang di web javascript dengan html</h1>
+		<hr>
+	</div>
+	<div class="paragraf" id="none"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<table>
+		<tr>
+			<th>nama</th>
+			<th>kelas</th>
+		</tr>
+		<tr>
+			<td>llano</td>
+			<td>11 elektro 1</td>
+		</tr>
+	</table>
+	</div>
+	<br>
+	<button type="button" onclick="disapear()">disapear</button>
+
+
+</body>
+</html>

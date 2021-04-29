@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>testing</title>
+	<style>
+		
+		#t01 {
+			width:50%;
+			border:1px solid black;
+
+			border-collapse:collapse;
+			background-color: grey;
+
+		}
+
+		
+		#t01 th, td{
+			font-family:serif;
+		}
+		#t01 th {
+			text-align:center;
+			background-color:black;
+			color:white;
+			border:1px solid black;
+		}
+		caption {
+			font-size:200%;
+			font-family:serif;
+		}
+
+		#beda {
+			width:50%;
+			border-collapse:collapse;
+			font-family:monospace;
+			font-size:150%;
+		}
+
+		#beda th {
+			background-color:rgb(255,0,0);
+			color:white;
+			border:1px solid black;
+		}
+	</style>
+</head>
+<body>
+ <table border="1" id="t01">
+  <caption>TABEL NAMA</caption>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table> 
+<br><br><br>
+
+<table border="1" id="beda">
+	<caption>nama & kelas</caption>
+	<tr>
+		<th>nama</th>
+		<th>kelas</th>
+	</tr>
+	<tr>
+		<td>llano</td>
+		<td>11 elektro 1</td>
+	</tr>
+	<tr>
+		<td>ujang</td>
+		<td>11 las 2</td>
+	</tr>
+</table>
+
+</body>
+</html>

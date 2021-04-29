@@ -1,0 +1,50 @@
+/*
+=> untuk position bisa dengan relative/absolute/static
++top
++left
++right
++bottom
+
+=> untuk margin bisa dengan 4/2/3/all
++4 margin:<kanan> <atas> <kiri> <bawah>;
++2 margin:<atas dan bawah> <kiri dan kanan>;
++3 margin:<atas> <kiri dan kanan> <bawah>;
+*/
+
+
+
+.kotak-login {
+	background:lightgreen;
+	width:320px;
+	height:200px;
+	margin:100px auto;
+	padding:30px 30px;
+	border:2px solid green;
+}
+
+.kotak-dalam {
+	font-family:monospace;
+	font-size:150%;
+	font-weight:bold;
+
+
+
+}
+
+.kotak-dalam input {
+	border:none;
+	box-sizing:border-box;
+	width:100%;
+	height:auto;
+}
+
+.kotak-dalam button {
+	
+	width:50%;
+	height:35px;
+	margin:20px auto;
+	font-size:105%;
+	margin-left:85px;
+	border:2px solid red;
+
+}
